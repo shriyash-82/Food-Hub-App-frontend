@@ -41,7 +41,7 @@ export default function Signup() {
     <input type="password" className="form-control" name = "password" value = {credentials.password}id="exampleInputPassword1" onChange = {onChange}/>
   </div>
   <div class="mb-3">
-    <label for="inputAddress" className="form-label">Address</label>
+    <label htmlFor="inputAddress" className="form-label">Address</label>
     <input type="text" className="form-control" name = "geolocation" value = { credentials.geolocation} id="inputAddress" placeholder="1234 Main St" onChange = {onChange}/>
   </div>
   <button type="submit" className="btn btn-success">Submit</button>
